@@ -1,4 +1,4 @@
 function hello(){
-    console.log("HelloSoftuni");
+    console.log("Hello SoftUni");
 }
 hello()
