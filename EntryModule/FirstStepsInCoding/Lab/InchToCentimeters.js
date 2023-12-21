@@ -3,4 +3,4 @@ function InchToCM(input){
     let cm = a*(2.54);
 
     console.log(cm)
-}InchToCM([asdasd],[24])
+}
