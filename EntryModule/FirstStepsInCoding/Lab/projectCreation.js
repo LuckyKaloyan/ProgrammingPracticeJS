@@ -5,5 +5,5 @@ function projects(input){
 
     console.log(`The architect ${name} will need ${totalprojects} hours to complete ${numberprojects} project/s.`);
 
-}projects(['Kebab','5'])
+}
 
