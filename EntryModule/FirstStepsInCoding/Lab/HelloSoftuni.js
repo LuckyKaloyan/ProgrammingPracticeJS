@@ -1,3 +1,3 @@
 function hello(){
-    console.log("Hello SoftUni");
-}
+    console.log("HelloSoftuni!")
+}hello()
