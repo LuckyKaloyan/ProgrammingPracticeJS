@@ -8,4 +8,4 @@ function schoolMaterials(input){
     let result = (pens+markers+detergen)-((pens+markers+detergen)*discount);
    console.log(result);
 
-}schoolMaterials(["2 ","3 ","4 ","25 "])
+}
