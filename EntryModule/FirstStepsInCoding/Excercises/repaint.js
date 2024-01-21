@@ -6,4 +6,4 @@ function repaint(input){
     let workSalaries = parseFloat(input[3])*0.3*(nailon+paint+thinner+0.40);
     let result = nailon+paint+thinner+workSalaries+0.40;
     console.log(result);
-}repaint(["10 ","11 ","4 ","8 "])
+}
