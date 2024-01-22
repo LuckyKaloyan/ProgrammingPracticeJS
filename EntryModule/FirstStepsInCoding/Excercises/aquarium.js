@@ -4,15 +4,4 @@ function aquarium(input){
     let result = capacity*(1-(parseFloat(input[3])/100));
 
     console.log(result);
-
-
-
-
-
-}aquarium(["85 ",
-
-"75 ",
-
-"47 ",
-
-"17 "])
+}
