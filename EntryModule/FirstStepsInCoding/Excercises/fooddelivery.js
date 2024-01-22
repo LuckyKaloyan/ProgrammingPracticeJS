@@ -6,9 +6,4 @@ function food(input){
     let total = (chicken+fish+vegans)*0.2+chicken+fish+vegans+2.50;
    console.log(total)
 
-
-}food(["2 ",
-
-"4 ",
-
-"3 "])
+}
