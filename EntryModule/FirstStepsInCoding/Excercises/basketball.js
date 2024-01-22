@@ -6,8 +6,5 @@ function basketball(input){
     let ball = shirt*0.25;
     let accessories = ball*0.2;
     console.log(yeartax+shoes+shirt+ball+accessories);
-
-
-
-
-}basketball(["365 "])
+    
+}
