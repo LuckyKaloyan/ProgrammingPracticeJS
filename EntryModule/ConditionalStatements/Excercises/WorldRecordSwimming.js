@@ -18,6 +18,4 @@ function WorldRecordSwimming(input){
             "No, he failed! He was "+ (newrecord-record).toFixed(2) + " seconds slower."
         )
     }
-}WorldRecordSwimming(["55555.67",
-
-"3017","5.03"])
+}
