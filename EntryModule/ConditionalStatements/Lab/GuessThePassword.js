@@ -5,6 +5,4 @@ if(input == "s3cr3t!P@ssw0rd"){
 }else{
     console.log("Wrong password!");
 }
-
-
-}GuessThePassowrd("s3cr3t!P@ssw0rd")
+}
