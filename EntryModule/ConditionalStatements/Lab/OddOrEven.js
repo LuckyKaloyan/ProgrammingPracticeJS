@@ -9,4 +9,4 @@ function OddOrEven(input){
         console.log("Odd")
     }
 
-}OddOrEven("1")
+}
