@@ -13,6 +13,4 @@ if(speed<10){
 }else if(speed>1000){
     console.log("extremely fast")
 }
-
-
-}SpeedInfo(1601)
+}
