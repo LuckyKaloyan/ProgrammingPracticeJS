@@ -11,4 +11,4 @@ if(name=="square"){
     console.log((input[1]*input[2]).toFixed(3));
 }
 
-}FiguresArea(["rectangle", "7", "2.5"])
+}
