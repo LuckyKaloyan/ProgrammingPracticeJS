@@ -19,4 +19,4 @@ let points = 0;
     console.log(points+"\n"+number);
 
 
-}BonusPoints(["20"])
+}
