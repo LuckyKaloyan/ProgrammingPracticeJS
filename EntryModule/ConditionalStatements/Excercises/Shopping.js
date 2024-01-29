@@ -19,12 +19,4 @@ function Shopping(input){
             console.log("Not enough money! You need "+((total-budget)*0.85).toFixed(2)+ " leva more!");
            }
     }
-
-
-}Shopping((["900",
-
-"2",
-
-"1",
-
-"3"]))
+}
