@@ -11,11 +11,4 @@ if(breaklength>episodelength){
 }else{
     console.log("You have enough time to watch "+name +" and left with "+Math.ceil(episodelength-breaklength)+" free time.")  
 }
-
-
-
-}LunchBreak(["Teen Wolf",
-
-"48",
-
-"60"])
+}
