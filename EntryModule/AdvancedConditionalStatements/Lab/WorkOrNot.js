@@ -14,5 +14,4 @@ switch(day){
     default: console.log("Error"); break;
 }
 
-
-}WorkOrNot(["Mondasy"]);
+}
