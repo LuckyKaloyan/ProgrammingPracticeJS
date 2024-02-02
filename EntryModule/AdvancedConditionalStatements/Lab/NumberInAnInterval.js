@@ -11,4 +11,4 @@ if(number>=-100 && number<=100){
 
 
 
-}NumberInAnInterval(["-511"])
+}
