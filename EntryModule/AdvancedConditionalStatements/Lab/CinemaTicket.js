@@ -14,6 +14,4 @@ case "Monday" :
                         case "Sunday" :
                             console.log("16");
 }
-
-
-}CinemaTicket(["Monday"])
+}
