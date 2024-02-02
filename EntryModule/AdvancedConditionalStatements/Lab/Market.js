@@ -53,4 +53,4 @@ function Market(input){
    }else{
     console.log("error");
    }
-}Market(["tomato", "Monday", "0.5"])
+}
