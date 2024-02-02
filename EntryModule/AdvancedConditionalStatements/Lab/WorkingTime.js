@@ -20,5 +20,4 @@ break;
 default: console.log("closed");break;
 }
 
-}WorkingTime(["11",
-"Monday"])
+}
