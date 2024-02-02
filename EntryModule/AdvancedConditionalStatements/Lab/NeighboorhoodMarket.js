@@ -34,5 +34,4 @@ switch(city){
 }
 
 
-
-}NeighboorhoodMarket(["sweets", "Sofia", "2.23"])
+}
