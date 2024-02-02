@@ -49,4 +49,4 @@ function Commisions(input){
 
     }
 
-}Commisions(["Kaspichan", "-50"])
+}
