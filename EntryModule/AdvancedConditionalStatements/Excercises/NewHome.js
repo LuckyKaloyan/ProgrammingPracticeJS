@@ -36,8 +36,4 @@ if(budget>total){
     console.log("Not enough money, you need " +(total-budget).toFixed(2) +" leva more.");
 }
 
-}NewHome(["Tulips",
-
-"88",
-
-"260"])
+}
