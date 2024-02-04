@@ -31,8 +31,4 @@ function FishingBoat(input){
         console.log("Not enough money! You need " + (tax-budget).toFixed(2)+" leva.");
     }
 
-}FishingBoat(["3000",
-
-"Summer",
-
-"11"])
+}
