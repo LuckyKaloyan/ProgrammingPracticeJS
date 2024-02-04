@@ -28,9 +28,6 @@ function Trip(input) {
         place = "Hotel";
         
     }
-
     console.log(destination);
     console.log(place + " - " + budget.toFixed(2));
 }
-
-Trip(["1500", "summer"]);
