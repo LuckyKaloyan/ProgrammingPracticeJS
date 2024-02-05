@@ -37,7 +37,4 @@ case "%" :
     }
     break;
 }
-
-
-
-}OperationsNumbers(["112", "0", "/"])
+}
