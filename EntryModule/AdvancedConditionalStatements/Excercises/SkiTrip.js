@@ -1,6 +1,6 @@
 function SkiTrip(input){
 
-let days = Number(input[0]);
+let days = Number(input[0])-1;
 let place = input[1];
 let review = input[2];
 let total;
@@ -30,4 +30,4 @@ if(review=="positive"){
     console.log((total*0.9).toFixed(2));
 }
 
-}
+}SkiTrip(["2", "apartment", "positive"])
