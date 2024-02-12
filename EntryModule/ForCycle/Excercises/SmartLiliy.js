@@ -20,8 +20,4 @@ if(laundryPrice<=totalsum){
 }
 
 
-}SmartLily(["21",
-
-"1570.98",
-
-"3"])
+}
