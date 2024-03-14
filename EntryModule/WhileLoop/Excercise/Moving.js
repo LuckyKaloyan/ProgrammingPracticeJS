@@ -1,24 +1,23 @@
-function Moving(input){
-
-    let width = Number(input[0]);
-    let length = Number(input[1]);
-    let height = Number(input[2]);
+function Moving(input) {
+    let width = Number(input.shift());
+    let length = Number(input.shift());
+    let height = Number(input.shift());
     let volume = width * length * height;
 
     let movedCartons = 0;
-    let index = 3;
-    let numCartons = input[index];
-    while(true){
-        numCartons = input[index++];
-        if(numCartons === "Done"){
+    let numCartons = input.shift();
+    
+    while (numCartons !== "Done") {
+        movedCartons += parseInt(numCartons);
+        if (movedCartons >= volume || input.length === 0) {
             break;
         }
-        else{    movedCartons += parseInt(numCartons);   }
+        numCartons = input.shift();
     }
-    if(movedCartons > volume){
+
+    if (movedCartons >= volume) {
         console.log(`No more free space! You need ${Math.abs(movedCartons - volume)} Cubic meters more.`);
-    }
-    else {
+    } else {
         console.log(`${Math.abs(movedCartons - volume)} Cubic meters left.`);
     }
 }
