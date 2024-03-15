@@ -14,4 +14,4 @@ function Combinations(input){
         }
     }
     console.log(combinations);
-}Combinations(["25"])
+}
