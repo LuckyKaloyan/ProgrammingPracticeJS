@@ -2,6 +2,7 @@ function OddOrEven(input){
 
     let start = Number(input[0]);
     let finish = Number(input[1]);
+    let result = '';
 
     for(let s = start; s<=finish; s++){
         let odd = 0;
@@ -15,10 +16,11 @@ function OddOrEven(input){
 
         }
         if(odd===even){
-            console.log(s)
+            result=result+s+' ';
         }
 
     }
+    console.log(result)
    
 
-}OddOrEven(["100000", "100050"]);
+}
