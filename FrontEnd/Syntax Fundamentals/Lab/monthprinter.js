@@ -42,4 +42,4 @@ switch(number){
     console.log('Error!')
 
 }
-}monthpriner(11)
+}
