@@ -25,6 +25,4 @@ function mathoperations(input){
             console.log(a**b);
             break;
     }
-
-
-}mathoperations([4,5,'**'])
+}
