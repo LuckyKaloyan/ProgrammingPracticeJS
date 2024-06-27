@@ -2,6 +2,6 @@ function multiplybytwo(input){
 
 let a = Number(input);
 
-console.log(a*a);
+console.log(a*2);
 
-}multiplybytwo('4');
+}

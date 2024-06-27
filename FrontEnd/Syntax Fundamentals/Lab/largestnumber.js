@@ -1,12 +1,12 @@
-function largestnumber(input){
+function largestnumber(numberA,numberB,numberC){
 
-    let a = Number(input[0]);
-    let b = Number(input[1]);
-    let c = Number(input[2]);
+    let a = Number(numberA);
+    let b = Number(numberB);
+    let c = Number(numberC);
 
      a = Math.max(a,b);
      c = Math.max(a,c);
-     console.log(c);
+     console.log('The largest number is '+c+'.');
 
 
 

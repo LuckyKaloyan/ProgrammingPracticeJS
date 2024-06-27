@@ -1,8 +1,8 @@
-function mathoperations(input){
+function mathoperations(numberA, numberB, operatorSymbol){
 
-    let a = Number(input[0]);
-    let b = Number(input[1]);
-    let c = String(input[2]);
+    let a = Number(numberA);
+    let b = Number(numberB);
+    let c = String(operatorSymbol);
 
 
     switch(c){
