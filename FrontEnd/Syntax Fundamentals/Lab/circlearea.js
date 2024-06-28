@@ -8,4 +8,4 @@ if(inputType==='number'){
     console.log('We can not calculate the circle area, because we receive a '+inputType+'.');
 }
 
-}circlearea(5)
+}
