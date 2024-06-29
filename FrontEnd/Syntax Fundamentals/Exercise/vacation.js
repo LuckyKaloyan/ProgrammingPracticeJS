@@ -74,13 +74,10 @@ function vacation(countNumber, strType, strDay){
             }break;
     }
 
-    console.log('Total price: '+total)
+    console.log('Total price: '+total.toFixed(2))
 
 
 
 
 
-}vacation(30,
-    "Students",
-    "Sunday"
-    )
+}
