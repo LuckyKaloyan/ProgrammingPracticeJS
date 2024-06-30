@@ -73,11 +73,5 @@ function vacation(countNumber, strType, strDay){
                     break;
             }break;
     }
-
     console.log('Total price: '+total.toFixed(2))
-
-
-
-
-
 }
