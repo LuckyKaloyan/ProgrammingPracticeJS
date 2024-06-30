@@ -12,6 +12,4 @@ for(let c=a; c<=b; c++){
 console.log(numbersLine);
 console.log('Sum: '+total);
 
-
-
-}printandsum(5, 10)
+}
