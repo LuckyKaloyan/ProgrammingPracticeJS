@@ -17,4 +17,4 @@ console.log(check);
 console.log(total);
 
 
-}solve(1234)
+}
