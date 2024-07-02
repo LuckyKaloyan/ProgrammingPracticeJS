@@ -29,4 +29,4 @@ function solve(){
         }
     }
 
-}solve('9', 'dice', 'spice', 'chop', 'bake', 'fillet')
+}
