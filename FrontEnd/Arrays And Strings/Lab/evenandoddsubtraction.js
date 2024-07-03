@@ -12,5 +12,3 @@ function solve(input) {
     }
     console.log(total);
 }
-
-solve([3,5,7,9]);
