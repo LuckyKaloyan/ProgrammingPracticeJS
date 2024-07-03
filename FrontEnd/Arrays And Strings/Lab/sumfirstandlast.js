@@ -8,4 +8,4 @@ function solve(input){
 
     console.log(first+last);
 
-}solve([11, 58, 69])
+}
