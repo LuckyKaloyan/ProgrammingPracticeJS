@@ -8,4 +8,4 @@ function solve(stringInput, indexBegin, indexEnd){
        word = word.substring(start,end);
        console.log(word);
 
-}solve('ASentence', 1, 8)
+}
