@@ -7,6 +7,6 @@ function fruit(name,amount,price){
 
 
 
-    console.log("I need "+((kilograms*priceperkilogram)/1000).toFixed(2)+" to buy "+(kilograms/1000).toFixed(2)+" kilograms "+fruitname);
+    console.log("I need $"+((kilograms*priceperkilogram)/1000).toFixed(2)+" to buy "+(kilograms/1000).toFixed(2)+" kilograms "+fruitname+".");
 
-}fruit('orange', 2500, 1.80)
+}
