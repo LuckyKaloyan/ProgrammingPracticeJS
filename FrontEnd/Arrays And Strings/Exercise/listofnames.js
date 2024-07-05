@@ -7,4 +7,4 @@ function solve(input){
         console.log(i+1+"."+args[i]);
     }
 
-}solve(["John", "Bob", "Christina", "Ema"]);
+}
