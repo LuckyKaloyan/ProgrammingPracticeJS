@@ -1,14 +1,22 @@
-function solve(input){
+function solve(input) {
+    let sentence = String(input);
 
-    let sentance = String(input);
+    let words = sentence.split(' ');
 
-    let array = sentance.split(' ');
+    for (let i = 0; i < words.length; i++) {
+        let word = words[i];
+        let isOnlyLetters = true;
 
-    for(let i=0; i<array.length; i++){
-        if(array[i].charAt(0)==='#' && array[i].length>1){
-            console.log(array[i].substring(1));
+        for (let j = 1; j < word.length; j++) {
+            let char = word.charAt(j);
+            if (!(/[a-zA-Z]/.test(char))) {
+                isOnlyLetters = false;
+                break;
+            }
+        }
+
+        if (isOnlyLetters && word.charAt(0) === '#' && word.length > 1) {
+            console.log(word.substring(1));
         }
     }
-
-
-}solve('The symbol # is known #variously in English-speaking #regions as the #number sign')
+}
