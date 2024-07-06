@@ -8,7 +8,6 @@ function solve(wordsString, sentance){
         for(let j=0; j<stringArr[i].length; j++){
             stringCheck=stringCheck+'*';
         }
-        console.log(stringCheck);
         output= output.replace(stringCheck,stringArr[i]);
     }
 
@@ -18,7 +17,4 @@ function solve(wordsString, sentance){
 
 
 
-
-}solve('great, learning',
-'softuni is ***** place for ******** new programming languages'
-);
+}
