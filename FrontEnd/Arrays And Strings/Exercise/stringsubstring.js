@@ -15,6 +15,4 @@ function solve(word,sentance){
     }
 
 
-}solve('python',
-'JavaScript is the best programming language'
-)
+}
