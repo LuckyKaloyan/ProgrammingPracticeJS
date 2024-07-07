@@ -23,6 +23,6 @@ function solve(input) {
     
    }
    console.log(output);
-}solve('SplitMeIfYouCanHaHaYouCantOrYouCan')
+}
 
 
