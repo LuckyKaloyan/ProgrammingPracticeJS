@@ -18,4 +18,4 @@ switch(stringInput){
 }
 
 
-}solve("coffee", 2);
+}
