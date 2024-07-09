@@ -1,18 +1,16 @@
 function solve(numberA,numberB,numberC){
 
-if(numberA>=numberB){
-    if(numberC<numberB){
+if(numberA>numberB){
+    if(numberB>numberC){
         console.log(numberC);
     }else{
         console.log(numberB);
     }
 }else{
-    if(numberA<=numberB){
+    if(numberC>numberA){
         console.log(numberA);
-    }else{
-        console.log(numberB);
-    }
+    }else {console.log(numberC);}
 }
 
 
-}solve(7,6,4)
+}
