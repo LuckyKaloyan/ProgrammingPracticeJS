@@ -22,4 +22,4 @@ function solve(inputNumber){
 
 
 
-}solve(1000435)
+}
