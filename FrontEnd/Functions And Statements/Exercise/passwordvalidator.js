@@ -1,8 +1,6 @@
 function solve(input){
 
-    let password = String(input);
-
-
+let password = String(input);
 
 let check = Boolean;
 check = true;
@@ -36,8 +34,6 @@ for(let i=0; i<password.length; i++){
 
 }
 
-
-
 if(!check){
     console.log("Password must consist only of letters and digits");
     valid=false;
@@ -50,6 +46,4 @@ if(digits<2){
 if(valid){
     console.log("Password is valid")
 }
-
-
-}solve("logIn")
+}
