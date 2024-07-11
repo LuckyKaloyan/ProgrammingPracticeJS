@@ -14,4 +14,4 @@ let pop = String("");
 
 
 
-}solve(7);
+}
