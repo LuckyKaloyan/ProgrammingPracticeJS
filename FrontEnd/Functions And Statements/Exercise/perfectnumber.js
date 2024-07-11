@@ -14,4 +14,4 @@ if(total==input){
 
 
 
-}solve(1236498);
+}
