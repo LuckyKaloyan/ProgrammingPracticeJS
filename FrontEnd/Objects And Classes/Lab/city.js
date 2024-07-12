@@ -8,14 +8,11 @@ function city({ name,area,population,country,postCode }){
         postCode:postCode,
     }
 
-console.log(city);
+console.log("name -> "+city.name);
+console.log("area -> "+city.area);
+console.log("population -> "+city.population);
+console.log("country -> "+city.country);
+console.log("postCode -> "+city.postCode);
 
-
-}city({
-    name: "Plovdiv",
-    area: 389,
-    population: 1162358,
-    country: "Bulgaria",
-    postCode: "4000"
 }
-)
+
