@@ -1,12 +1,13 @@
 function sumCharacters(input) {
-    let total = 0;
-    let number = String(input);
 
-    for (let i = 0; i < number.length; i++) {
-        sum += Number(number[i]);
+    let inputString = String(input);
+    let sum = 0;
+
+    for (let i = 0; i < inputString.length; i++) {
+        let char = String(inputString.charAt(i));
+            sum =sum+ Number(char);
+        
     }
 
-   console.log(total);
-
-
+    console.log(sum);
 }
