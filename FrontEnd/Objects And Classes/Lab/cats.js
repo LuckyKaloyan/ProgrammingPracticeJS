@@ -6,7 +6,7 @@ function catsCreate(input){
         }
     
         meow(){
-            console.log(this.name+", age"+this.age+" says Meow");
+            console.log(this.name+", age "+this.age+" says Meow");
         }
     }
 
@@ -18,4 +18,4 @@ function catsCreate(input){
         cat.meow();
     }
 
-}catsCreate(['Mellow 2', 'Tom 5']);
+}
