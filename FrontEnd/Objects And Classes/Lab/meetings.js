@@ -6,7 +6,7 @@ function solve(input){
         let kebab = sentence[i].split(" ");
 
         if(map.has(kebab[0])){
-            console.log("Conflict on " + kebab[0]);
+            console.log("Conflict on " + kebab[0]+"!");
         } else {
             console.log("Scheduled for " + kebab[0]);
             map.set(kebab[0], kebab[1]);
@@ -17,5 +17,3 @@ function solve(input){
         console.log(key + " -> " + value);
     });
 }
-
-solve(['Monday Peter', 'Wednesday Bill', 'Monday Tim', 'Friday Tim']);
