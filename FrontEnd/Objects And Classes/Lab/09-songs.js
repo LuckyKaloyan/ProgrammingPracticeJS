@@ -1,40 +1,30 @@
-﻿
-function solve(input) {
+﻿function solve(input) {
     class Song {
-        constructor(name, time) {
+        constructor(typeList, name, time) {
+            this.typeList = typeList;
             this.name = name;
             this.time = time;
         }
     }
+
+    let numberOfSongs = Number(input[0]);
     
-    const collection = {};
-    const allSongs = [];
+    let songs = [];
 
-    const numberOfSongs = input.shift();
-
-    for (let i = 0; i < numberOfSongs; i++) {
-        const [typeList, name, time] = input.shift().split('_');
-
-        if (!collection[typeList]) {
-            collection[typeList] = [];
-        }
-
-        const song = new Song(name, time)
-        collection[typeList].push(song);
-        allSongs.push(song);
+    for (let i = 1; i <= numberOfSongs; i++) {
+        let songDetails = input[i].split('_');
+        let typeList = songDetails[0];
+        let name = songDetails[1];
+        let time = songDetails[2];
+        let song = new Song(typeList, name, time);
+        songs.push(song);
     }
 
-    const typeList = input.shift();
-    if (typeList == 'all') {
-        allSongs.forEach(song => console.log(song.name));
-        // Object.values(collection).flat(1).forEach(song => console.log(song.name));
-    } else {
-        collection[typeList].forEach(song => console.log(song.name));
+    let requestedTypeList = input[input.length - 1];
+
+    for (let i = 0; i < songs.length; i++) {
+        if (requestedTypeList === 'all' || songs[i].typeList === requestedTypeList) {
+            console.log(songs[i].name);
+        }
     }
 }
-
-solve([2,
-    'like_Replay_3:15',
-    'ban_Photoshop_3:48',
-    'all']
-    )
