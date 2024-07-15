@@ -16,15 +16,3 @@ function solve(input){
     });
 
 }
-
-solve([
-
-    'Samuel Jackson',
-    
-    'Will Smith',
-    
-    'Bruce Willis',
-    
-    'Tom Holland'
-    
-    ]);
