@@ -40,9 +40,12 @@ for(let i=0; i<args.length; i++){
 
 
 for(let i=0; i<objects.length; i++){
-    let json = JSON.stringify(objects[i]);
-    console.log(json);
-}
+    if(objects[i].name && objects[i].date && objects[i].director){
+        let json = JSON.stringify(objects[i]);
+        console.log(json);
+    }
+    }
+ 
 
 
 
