@@ -13,7 +13,7 @@ for(let i=0; i<splitted.length; i++){
         count:0,
     }
 
-    objects.splice(i,0,object);
+    objects.push(object);
 }
 for(let i=0; i<objects.length; i++){
     for(let j=1; j<args.length; j++){
@@ -23,6 +23,8 @@ for(let i=0; i<objects.length; i++){
 
     }
 }
+
+objects.sort((a, b) => b.count - a.count);
 for(let i=0; i<objects.length; i++){
     console.log(objects[i].name+" - "+objects[i].count);
 }
