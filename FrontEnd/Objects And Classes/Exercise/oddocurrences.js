@@ -28,4 +28,4 @@ for(let i=0; i<array.length; i++){
 console.log(result);
 
 
-}solve('Java C# Php PHP Java PhP 3 C# 3 1 5 C#')
+}

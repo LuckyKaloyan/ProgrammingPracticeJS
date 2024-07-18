@@ -7,27 +7,24 @@ let splitted = words.split(" ");
 
 let objects = [];
 
-for(let i=0; i<splitted; i++){
+for(let i=0; i<splitted.length; i++){
     let object = {
         name:splitted[i],
         count:0,
     }
 
-    objects.push(object);
+    objects.splice(i,0,object);
 }
-
-for(let i=1; i<args.length; i++){
-
-    let obj = objects.find(obj => obj.name === args[i]);
-    if (obj) {
-        obj.count++;
+for(let i=0; i<objects.length; i++){
+    for(let j=1; j<args.length; j++){
+          if(args[j]===objects[i].name){
+            objects[i].count++;
+          }
 
     }
 }
-
 for(let i=0; i<objects.length; i++){
     console.log(objects[i].name+" - "+objects[i].count);
 }
 
-
-}wordstracker()
+}
