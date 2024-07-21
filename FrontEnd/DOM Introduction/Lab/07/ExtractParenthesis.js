@@ -20,6 +20,16 @@ function extract(content) {
           finishingIndex = null;
         }
     }
-    console.log(args);
+    
+    let result = "";
 
+    for(let i=0; i<args.length; i++){
+        if(args<args.length-1){
+            result=result+args[i]+"; ";
+        }else{
+            result=result+args[i];
+        }
+    }
+
+    return result;
 }
