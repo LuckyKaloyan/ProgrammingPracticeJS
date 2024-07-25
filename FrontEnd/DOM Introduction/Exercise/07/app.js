@@ -80,7 +80,7 @@ theBestRestaurant.workersMap.forEach((value, key) => {
     topSalaryPerson = value.toFixed(2);
   }
   
-  workersPrint += `Name: ${key} With Salary: ${value}\n`;
+  workersPrint += `Name: ${key} With Salary: ${value} `;
 });
 
 document.querySelector('#bestRestaurant > p').textContent=("Name: " + theBestRestaurant.name + " Average Salary: " + theBestRestaurant.averageSalary + " Best Salary: " + topSalaryPerson);
