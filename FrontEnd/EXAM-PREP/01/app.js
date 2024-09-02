@@ -48,12 +48,11 @@ document.addEventListener('DOMContentLoaded', () => {
       return li;
     }
   
-    // Function to fetch and display records
     function fetchRecords() {
       fetch(apiUrl)
         .then(response => response.json())
         .then(records => {
-          listElement.innerHTML = ''; // Clear existing records
+          listElement.innerHTML = ''; 
           records.forEach(record => {
             listElement.appendChild(createRecordElement(record));
           });
@@ -61,7 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error fetching records:', error));
     }
   
-    // Function to add a new record
     function addRecord() {
       const newRecord = {
         name: nameInput.value,
@@ -82,7 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error adding record:', error));
     }
   
-    // Function to populate the form for editing
     function populateFormForEdit(record) {
       nameInput.value = record.name;
       stepsInput.value = record.steps;
@@ -91,7 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
       toggleEditState(true);
     }
   
-    // Function to edit an existing record
     function editRecord() {
       const updatedRecord = {
         name: nameInput.value,
@@ -113,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error updating record:', error));
     }
   
-    // Function to delete a record
+
     function deleteRecord(id) {
       fetch(`${apiUrl}/${id}`, {
         method: 'DELETE'
@@ -123,21 +119,19 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error deleting record:', error));
     }
-  
-    // Function to clear form fields
+
     function clearForm() {
       nameInput.value = '';
       stepsInput.value = '';
       caloriesInput.value = '';
     }
-  
-    // Function to toggle between add/edit state
+
     function toggleEditState(isEditing) {
       editRecordBtn.disabled = !isEditing;
       addRecordBtn.disabled = isEditing;
     }
   
-    // Event listeners
+
     addRecordBtn.addEventListener('click', addRecord);
     editRecordBtn.addEventListener('click', editRecord);
     loadRecordsBtn.addEventListener('click', fetchRecords);
